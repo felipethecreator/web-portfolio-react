@@ -1,7 +1,12 @@
+import '../style/navBar.css'
+
 export default function navBar() {
     return (
-        <nav>
-            <p>oiiii</p>
-        </nav>
+            <nav id='navBar'>
+                <p>Felipe</p>
+                <p>Sobre mim</p>    
+                <p>Projetos</p>
+                <p>Contatos</p>
+            </nav>
     )
 }
