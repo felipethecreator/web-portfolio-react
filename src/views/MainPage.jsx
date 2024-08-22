@@ -102,6 +102,8 @@ export default function mainPage() {
             <p>Olá, React!</p>
             <p>Olá, React!</p>
             <p>Olá, React!</p>
+
+            <p>Olá, React!</p>
             <p>Olá, React!</p>
             <p>Olá, React!</p>
             <p>Olá, React!</p>
