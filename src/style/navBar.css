@@ -11,3 +11,7 @@
 p {
     font-family: "Noto Sans JP", sans-serif;
 }
+
+.navOptions {
+    display: flex;
+}
