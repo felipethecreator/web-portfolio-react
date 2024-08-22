@@ -3,11 +3,17 @@ import '../style/navBar.css'
 export default function navBar() {
     return (
             <nav id='navBar'>
-                <h2>Felipe</h2>
+                <h2>Felipe Rodrigues</h2>
                 <ul className='navOptions'>
-                    <li><p>Sobre mim</p></li>
-                    <li><p>Projetos</p></li>
-                    <li><p>Contatos</p></li>
+                    <li>
+                        <a href='#'>Sobre mim</a>
+                        </li>
+                    <li>
+                        <a href='#'>Projetos</a>
+                        </li>
+                    <li>
+                        <a href='#'>Contatos</a>
+                        </li>
                 </ul>
             </nav>
     )
