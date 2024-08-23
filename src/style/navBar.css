@@ -1,15 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Noto+Sans+JP:wght@100..900&display=swap');
 #navBar {
-    border: 1px solid black;
     display: flex;
     top: 0;
-    width: 100vw;
+    width: 100%;
     position: fixed;
     background-color: white;
     justify-content: space-between;
     align-items: center;
     font-family: "Moderustic", sans-serif;
     padding-block: 3px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, .4);
+    padding: 13px;
+}
+
+.meuNome {
+    background-image: url(../assets/images/pc.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 60px;
+    margin-left: 20px;
+    background-size: 40px;
+    font-size: 33px;
+    font-weight: 500;
 }
 
 .navOptions {
@@ -26,14 +38,9 @@
     padding: 40px;
     font-size: 23px;
     color: black;
-    transition: all 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
-.navOptions li:hover {
-    transform: scale(1.05);
-}
-
-h2 {
-    padding-left: 60px;
-    font-size: 33px
+.navOptions a:hover {
+    color: #219ebc;
 }

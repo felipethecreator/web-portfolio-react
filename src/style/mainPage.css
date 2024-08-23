@@ -1,4 +1,5 @@
 .divPortfolio {
+    width: 100vw;
     align-items: center;
     display: flex;
     justify-content: center;

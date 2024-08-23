@@ -3,7 +3,7 @@ import '../style/navBar.css'
 export default function navBar() {
     return (
             <nav id='navBar'>
-                <h2>Felipe Rodrigues</h2>
+                <h2 className='meuNome'>Felipe Rodrigues</h2>
                 <ul className='navOptions'>
                     <li>
                         <a href='#'>Sobre mim</a>
