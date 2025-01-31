@@ -1,0 +1,20 @@
+.headerContainer {
+    width: 100dvw;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.headerTopics {
+    display: flex;
+    gap: 20rem;
+    list-style: none;
+}
+
+.headerTopics li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}

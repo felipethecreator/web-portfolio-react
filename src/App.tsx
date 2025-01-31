@@ -1,10 +1,11 @@
 import './App.css'
+import Hero from './pages/Hero'
 
 function App() {
   return (
-    <>
-        <p>oiiiii</p>
-    </>
+    <div className='appContainer'>
+        <Hero/>
+    </div>
   )
 }
 
