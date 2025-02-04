@@ -1,13 +1,14 @@
 import './style.css'
 import Header from '../../components/Header'
+import Hero from '../../components/Hero'
 
-function Hero() {
+function MainPage() {
     return (
         <div>
             <Header/>
-            <p>pagina hero</p>
+            <Hero/>
         </div>
     )
 }
 
-export default Hero
+export default MainPage
