@@ -44,6 +44,16 @@
     font-weight: 300;
 }
 
+.heroArrow {
+    width: 5rem;
+    height: auto;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: float 2s ease-in-out infinite;
+}
+
 @keyframes typing {
     from { width: 0 }
     to { width: 100% }
@@ -52,4 +62,13 @@
 @keyframes piscada {
     from, to { border-color: transparent } 
     50% { border-color: #fff; } 
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateX(-50%) translateY(0);
+    }
+    50% {
+        transform: translateX(-50%) translateY(-20px);
+    }
 }
