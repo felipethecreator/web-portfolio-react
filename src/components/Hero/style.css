@@ -1,0 +1,55 @@
+.heroContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 85%;
+    margin-left: 5rem;
+}
+
+.heroPersonalInfos {
+    display: inline-block;
+    width: fit-content;
+}
+
+.heroName {
+    font-size: 38px;
+    color: #fff;
+    font-weight: 400;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(90, end) forwards, piscada 1s step-end infinite;
+    border-right: 2px solid #fff;
+    padding-right: 5px;
+}
+
+.heroCargo {
+    color: #9B9B9B;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.heroContainer hr {
+    background-color: #ADADAD;
+    border: none;
+    height: 1px;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.heroText {
+    margin-top: 20px;
+    font-size: 48px;
+    max-width: 60vw;
+    color: #fff;
+    font-weight: 300;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes piscada {
+    from, to { border-color: transparent } 
+    50% { border-color: #fff; } 
+}
