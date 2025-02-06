@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Archivo';
+    src: url(../../assets/fonts/Archivo-Regular.ttf);
+  }
+
 .headerContainer {
     width: 100dvw;
     height: 4rem;
@@ -21,6 +26,10 @@
 }
 
 .headerTopics a:hover {
-    color: aqua;
-    animation: ease-in-out 3s;
+    text-shadow:
+        0 0 7px #030303,
+        0 0 10px #fff,
+        0 0 12px #fff,
+        0 0 24px #243B55;
+    transition: text-shadow 0.2s ease-in-out;
 }
