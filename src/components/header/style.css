@@ -16,7 +16,8 @@
 .headerTopics li a {
     text-decoration: none;
     color: #fff;
-    font-size: 26px;
+    font-size: 24px;
+    font-family: "Poppins";
 }
 
 .headerTopics a:hover {
