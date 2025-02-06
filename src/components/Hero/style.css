@@ -14,7 +14,7 @@
 .heroName {
     font-size: 38px;
     color: #fff;
-    font-weight: 400;
+    font-weight: 500;
     overflow: hidden;
     white-space: nowrap;
     animation: typing 2s steps(90, end) forwards, piscada 1s step-end infinite;
