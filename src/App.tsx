@@ -1,10 +1,10 @@
 import './App.css'
-import MainPage from './pages/MainPage'
+import RenderRoutes from './router'
 
 function App() {
   return (
     <div className='appContainer'>
-        <MainPage/>
+      <RenderRoutes/>
     </div>
   )
 }
