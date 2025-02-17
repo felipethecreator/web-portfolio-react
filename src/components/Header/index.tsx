@@ -5,8 +5,6 @@ import "./style.css"
 function Header() {
     const { isMenuOpen, setIsMenuOpen } = useMenuState()
 
-    console.log("O menu está aberto?", isMenuOpen)
-
     return (
         <header className="headerContainer">
             <MenuSidebar onClick={() => setIsMenuOpen(!isMenuOpen)} />
