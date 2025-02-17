@@ -1,0 +1,8 @@
+.menuSidebar {
+    display: none;
+}
+
+.menuSidebar img {
+    width: 45px;
+    display: flex;
+}
