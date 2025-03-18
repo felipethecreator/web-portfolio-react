@@ -1,9 +1,8 @@
-import './App.css'
 import RenderRoutes from './router'
 
 function App() {
   return (
-    <div className='appContainer'>
+    <div className='flex flex-row max-w-screen min-h-screen overflow-x-hidden'>
       <RenderRoutes/>
     </div>
   )
